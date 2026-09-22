@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 128" role="img" aria-labelledby="title desc">
+  <title id="title">Picpoet</title>
+  <desc id="desc">Picpoet organization wordmark with picture frame icon.</desc>
+  <g transform="translate(8 8)">
+    <rect width="112" height="112" rx="25" fill="#20201e"/>
+    <rect x="22" y="24" width="68" height="68" rx="3" fill="#f5f3ee"/>
+    <circle cx="79" cy="39" r="8" fill="#ed5b38"/>
+    <path d="m28 84 22-27 13 16 9-10 18 21H28Z" fill="#ed5b38"/>
+    <path d="M28 84 50 57l13 16 9-10 18 21" fill="none" stroke="#20201e" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path d="m94 8 3 9 9 3-9 3-3 9-3-9-9-3 9-3 3-9Z" fill="#f5f3ee"/>
+  </g>
+  <text x="146" y="84" fill="#20201e" font-family="Inter, Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="-4">Picpoet</text>
+</svg>

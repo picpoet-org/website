@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Picpoet brand mark</title>
+  <desc id="desc">A coral picture frame with a mountain, sun, and poetic sparkle.</desc>
+  <rect width="256" height="256" rx="56" fill="#20201e"/>
+  <path d="M52 62a10 10 0 0 1 10-10h132a10 10 0 0 1 10 10v132a10 10 0 0 1-10 10H62a10 10 0 0 1-10-10V62Z" fill="#f5f3ee"/>
+  <circle cx="174" cy="87" r="15" fill="#ed5b38"/>
+  <path d="m68 178 43-53 25 29 18-20 34 44H68Z" fill="#ed5b38"/>
+  <path d="m68 178 43-53 25 29 18-20 34 44" fill="none" stroke="#20201e" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+  <path d="m191 33 5 15 15 5-15 5-5 15-5-15-15-5 15-5 5-15Z" fill="#f5f3ee"/>
+</svg>

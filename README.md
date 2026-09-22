@@ -21,6 +21,10 @@ npm run dev
 
 下载链接默认指向 `picpoet-org/desktop-app` 的 GitHub Releases，发布桌面应用后即可使用。
 
+## 品牌资产
+
+统一品牌资产位于 `assets/`，包含网页 SVG 图标、Wordmark、PNG 和 Windows ICO。页面使用 `picpoet-mark.svg` 作为 favicon 和导航图标。
+
 ## ESA Pages
 
 网站使用根目录的 `esa.jsonc` 配置 ESA Pages，静态资源目录为 `public`。部署前将页面资源同步到 `public`，然后在项目目录执行：

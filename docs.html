@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="zh-CN">
-  <head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="description" content="Picpoet 使用说明" /><title>使用说明 · Picpoet</title><link rel="stylesheet" href="styles.css" /></head>
+  <head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="description" content="Picpoet 使用说明" /><link rel="icon" href="assets/picpoet-mark.svg" type="image/svg+xml" /><meta name="theme-color" content="#20201e" /><title>使用说明 · Picpoet</title><link rel="stylesheet" href="styles.css" /></head>
   <body>
-    <header class="site-header"><a class="brand" href="index.html">Picpoet</a><nav aria-label="主导航"><a href="docs.html">使用说明</a><a href="pricing.html">定价</a><a href="downloads.html">下载</a><a class="nav-cta" href="https://github.com/picpoet-org/picpoet" target="_blank" rel="noreferrer">GitHub</a></nav></header>
+    <header class="site-header"><a class="brand" href="index.html"><img src="assets/picpoet-mark.svg" alt="" /> <span>Picpoet</span></a><nav aria-label="主导航"><a href="docs.html">使用说明</a><a href="pricing.html">定价</a><a href="downloads.html">下载</a><a class="nav-cta" href="https://github.com/picpoet-org/picpoet" target="_blank" rel="noreferrer">GitHub</a></nav></header>
     <main class="shell"><section class="page-header"><p class="eyebrow">Documentation</p><h1>把媒体库交给 Picpoet。</h1><p class="lede">从安装到第一次批量打标，这里提供一条清晰、可回滚的使用路径。</p></section><div class="content-grid"><aside class="side-nav"><a href="#install">安装</a><a href="#config">配置</a><a href="#commands">常用命令</a><a href="#safety">安全写回</a></aside><div class="content"><section id="install"><h2>安装</h2><p>命令行版本要求 Node.js 20.12 或更高版本。</p><div class="code">npm install<br />npm run build</div></section><section id="config"><h3>配置视觉模型</h3><p>Picpoet 兼容 OpenAI-compatible API，也可以连接本地模型服务。创建配置文件或使用环境变量提供模型地址和 API key。</p><div class="code">{
   "baseURL": "http://localhost:11434/v1",
   "model": "llava:13b",
