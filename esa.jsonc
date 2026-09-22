@@ -1,0 +1,8 @@
+{
+  "name": "picpoet-website",
+  "description": "Picpoet documentation, pricing, and download pages.",
+  "assets": {
+    "directory": "./public",
+    "notFoundStrategy": "404Page"
+  }
+}

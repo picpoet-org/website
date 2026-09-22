@@ -20,3 +20,13 @@ npm run dev
 - `/downloads.html`：下载资源
 
 下载链接默认指向 `picpoet-org/desktop-app` 的 GitHub Releases，发布桌面应用后即可使用。
+
+## ESA Pages
+
+网站使用根目录的 `esa.jsonc` 配置 ESA Pages，静态资源目录为 `public`。部署前将页面资源同步到 `public`，然后在项目目录执行：
+
+```bash
+esa-cli deploy --assets ./public --name picpoet-website --environment production
+```
+
+`jqknono.com/pages/*` 通过 ESA 路由指向该 Pages 项目。
