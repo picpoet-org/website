@@ -1,10 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
   <title id="title">Picpoet brand mark</title>
-  <desc id="desc">A coral picture frame with a mountain, sun, and poetic sparkle.</desc>
+  <desc id="desc">A coral picture inside a dark frame, with a separate poetic sparkle.</desc>
   <rect width="256" height="256" rx="56" fill="#20201e"/>
-  <path d="M52 62a10 10 0 0 1 10-10h132a10 10 0 0 1 10 10v132a10 10 0 0 1-10 10H62a10 10 0 0 1-10-10V62Z" fill="#f5f3ee"/>
-  <circle cx="174" cy="87" r="15" fill="#ed5b38"/>
-  <path d="m68 178 43-53 25 29 18-20 34 44H68Z" fill="#ed5b38"/>
-  <path d="m68 178 43-53 25 29 18-20 34 44" fill="none" stroke="#20201e" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
-  <path d="m191 33 5 15 15 5-15 5-5 15-5-15-15-5 15-5 5-15Z" fill="#f5f3ee"/>
+  <rect x="42" y="64" width="172" height="138" rx="18" fill="#f5f3ee"/>
+  <clipPath id="picture">
+    <rect x="42" y="64" width="172" height="138" rx="18"/>
+  </clipPath>
+  <g clip-path="url(#picture)">
+    <circle cx="168" cy="100" r="14" fill="#ed5b38"/>
+    <path d="M71.78 172.73L108.22 141.27Q112 138 116 141L132 153Q136 156 139.76 152.71L164.24 131.29Q168 128 170.65 132.24L195.35 171.76Q198 176 193 176H73Q68 176 71.78 172.73Z" fill="#ed5b38"/>
+  </g>
+  <path d="M196.9 20.33L200.1 28.67Q201 31 203.33 31.9L211.67 35.1Q214 36 211.67 36.9L203.33 40.1Q201 41 200.1 43.33L196.9 51.67Q196 54 195.1 51.67L191.9 43.33Q191 41 188.67 40.1L180.33 36.9Q178 36 180.33 35.1L188.67 31.9Q191 31 191.9 28.67L195.1 20.33Q196 18 196.9 20.33Z" fill="#f5f3ee"/>
 </svg>

@@ -1,0 +1,47 @@
+/* Generated from tokens/picpoet.json. */
+:root, .picpoet-tokens {
+  --pp-color-ink: #20201e;
+  --pp-color-muted: #77736b;
+  --pp-color-muted-light: #99948a;
+  --pp-color-paper-overlay: rgba(245, 243, 238, 0.67);
+  --pp-color-paper: #f5f3ee;
+  --pp-color-panel: #ebe8df;
+  --pp-color-line: #d7d3c9;
+  --pp-color-accent: #ed5b38;
+  --pp-color-accent-dark: #c94427;
+  --pp-color-green: #72a76e;
+  --pp-color-yellow: #e8b44d;
+  --pp-color-photo: #d8d4ca;
+  --pp-color-photo-placeholder: #c9c5bc;
+  --pp-color-shadow: #dedbd2;
+  --pp-color-progress-track: #cfcbc2;
+  --pp-color-white: #ffffff;
+  --pp-color-ink-overlay: rgba(32, 32, 30, 0.78);
+  --pp-color-scrim: rgba(32, 32, 30, 0.48);
+  --pp-space-1: 4px;
+  --pp-space-2: 8px;
+  --pp-space-3: 12px;
+  --pp-space-4: 16px;
+  --pp-space-5: 20px;
+  --pp-space-6: 24px;
+  --pp-space-8: 32px;
+  --pp-space-12: 48px;
+  --pp-space-16: 64px;
+  --pp-radius-1: 6px;
+  --pp-radius-2: 8px;
+  --pp-radius-3: 12px;
+  --pp-radius-4: 16px;
+  --pp-radius-6: 24px;
+  --pp-breakpoint-compact: 600px;
+  --pp-breakpoint-medium: 840px;
+  --pp-breakpoint-expanded: 1200px;
+  --pp-breakpoint-large: 1600px;
+  --ink: var(--pp-color-ink);
+  --muted: var(--pp-color-muted);
+  --paper: var(--pp-color-paper);
+  --panel: var(--pp-color-panel);
+  --line: var(--pp-color-line);
+  --accent: var(--pp-color-accent);
+  --accent-dark: var(--pp-color-accent-dark);
+  --card: var(--pp-color-panel);
+}

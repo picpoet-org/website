@@ -1,13 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 128" role="img" aria-labelledby="title desc">
   <title id="title">Picpoet</title>
   <desc id="desc">Picpoet organization wordmark with picture frame icon.</desc>
-  <g transform="translate(8 8)">
-    <rect width="112" height="112" rx="25" fill="#20201e"/>
-    <rect x="22" y="24" width="68" height="68" rx="3" fill="#f5f3ee"/>
-    <circle cx="79" cy="39" r="8" fill="#ed5b38"/>
-    <path d="m28 84 22-27 13 16 9-10 18 21H28Z" fill="#ed5b38"/>
-    <path d="M28 84 50 57l13 16 9-10 18 21" fill="none" stroke="#20201e" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-    <path d="m94 8 3 9 9 3-9 3-3 9-3-9-9-3 9-3 3-9Z" fill="#f5f3ee"/>
+  <g transform="translate(8 8) scale(.4375)">
+    <rect width="256" height="256" rx="56" fill="#20201e"/>
+    <rect x="42" y="64" width="172" height="138" rx="18" fill="#f5f3ee"/>
+    <clipPath id="picture">
+      <rect x="42" y="64" width="172" height="138" rx="18"/>
+    </clipPath>
+    <g clip-path="url(#picture)">
+      <circle cx="168" cy="100" r="14" fill="#ed5b38"/>
+      <path d="M71.78 172.73L108.22 141.27Q112 138 116 141L132 153Q136 156 139.76 152.71L164.24 131.29Q168 128 170.65 132.24L195.35 171.76Q198 176 193 176H73Q68 176 71.78 172.73Z" fill="#ed5b38"/>
+    </g>
+    <path d="M196.9 20.33L200.1 28.67Q201 31 203.33 31.9L211.67 35.1Q214 36 211.67 36.9L203.33 40.1Q201 41 200.1 43.33L196.9 51.67Q196 54 195.1 51.67L191.9 43.33Q191 41 188.67 40.1L180.33 36.9Q178 36 180.33 35.1L188.67 31.9Q191 31 191.9 28.67L195.1 20.33Q196 18 196.9 20.33Z" fill="#f5f3ee"/>
   </g>
   <text x="146" y="84" fill="#20201e" font-family="Inter, Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="-4">Picpoet</text>
 </svg>
